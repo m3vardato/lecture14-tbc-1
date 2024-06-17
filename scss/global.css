@@ -1,0 +1,333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header .container {
+  max-width: 1180px;
+  width: 95%;
+  margin: 0 auto;
+}
+@media (max-width: 700px) {
+  header .container nav {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  header .container .fa-bars {
+    display: block;
+  }
+}
+header .divflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 33px;
+}
+header .divflex ul {
+  display: flex;
+  gap: 50px;
+}
+header .divflex ul a {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .divflex .fa-bars {
+  font-size: 32px;
+  display: none;
+}
+
+section div {
+  margin-top: 31px;
+}
+section div img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+section div h3 {
+  text-align: center;
+  margin-top: -400px;
+  z-index: 2;
+  position: relative;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 79px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media (max-width: 1000px) {
+  section div h3 {
+    margin-top: -100px;
+    font-size: 32px;
+  }
+}
+section div h4 {
+  text-align: center;
+  margin-top: 31px;
+  z-index: 2;
+  position: relative;
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (width <= 1000px) {
+  section div h4 {
+    font-size: 16px;
+  }
+}
+
+.idk5 {
+  max-width: 1180px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 350px;
+  justify-content: space-between;
+}
+.idk5 .idk {
+  width: 235px;
+  position: relative;
+}
+.idk5 .idk h5 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.idk5 .idk h2 {
+  margin-top: 9px;
+  margin-bottom: 31px;
+  color: #010101;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.idk5 .idk h6 {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.idk5 .idk4 {
+  width: 286px;
+}
+.idk5 .idk4 h3 {
+  margin-top: 23px;
+  margin-bottom: 9px;
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.idk5 .idk4 p {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (width <= 1000px) {
+  .idk5 {
+    margin-top: 100px;
+  }
+}
+@media screen and (width <= 1180px) {
+  .idk5 {
+    flex-direction: column;
+    gap: 33px;
+    width: 300px;
+  }
+}
+
+.container1 {
+  max-width: 650px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  gap: 33px;
+  margin-top: 56px;
+}
+.container1 .idk4 {
+  width: 286px;
+}
+.container1 .idk4 h3 {
+  margin-top: 23px;
+  margin-bottom: 9px;
+  color: #343232;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container1 .idk4 p {
+  color: #636060;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (width <= 1180px) {
+  .container1 {
+    flex-direction: column;
+    gap: 33px;
+    width: 300px;
+  }
+}/*# sourceMappingURL=global.css.map */
